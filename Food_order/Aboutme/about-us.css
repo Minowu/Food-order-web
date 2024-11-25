@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    color: #142f43;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #FFFCFE;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* Hero Section */
+.hero {
+    background-color: #FF5B6A;
+    color: white;
+    text-align: center;
+    padding: 100px 0 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Main Content */
+main {
+    padding: 50px 0;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #FF5B6A;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Features Grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.feature-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 9px 6px rgba(0, 0, 0, 0.6);
+}
+
+.feature-item img {
+    width: 310px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Values Section */
+.values-section ul {
+    list-style-type: none;
+}
+
+.values-section li {
+    margin-bottom: 15px;
+}
+.values-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+.values-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.values-item:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 11px 6px rgba(0, 0, 0, 0.6);
+}
+/* Footer */
+footer {
+    background-color: #142f43;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-top .container {
+        flex-direction: column;
+    }
+
+    .ul-center {
+        margin-top: 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+    .ul-center{
+        display: none;
+        grid-column: 3 / 3
+      }
+      .ul-right{
+        grid-column: 3 / 4;
+        }    
+      #menu-toggle{
+        grid-column: 2 / 3;
+        display: block;
+      }  
+    .hero p {
+        font-size: 18px;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.about-section, .mission-section, .features-section, .values-section {
+    animation: fadeIn 1s ease-out;
+}
