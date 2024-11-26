@@ -4,6 +4,8 @@ Food Order Web is an intuitive web application that allows users to browse, sele
 
 Key Features
   For Users:
+
+    Responsive Design: The website is fully responsive, ensuring an optimal user experience across all devices, including desktops, tablets, and mobile phones.
     
     Browse Products: Explore a diverse menu with detailed images and pricing.
     
@@ -11,13 +13,15 @@ Key Features
     
     Place Orders: Complete your order with just a few clicks.
     
-    Payment: Enjoy fast and hassle-free checkout options.
+    Payment: Enjoy fast and hassle-free checkout.
+
+    Log in, Sign up.
 
   For Admins:
   
     Manage Products: Add, edit, or delete products.
     
-    Manage Categories: Organize and optimize product categories.
+    Manage Categories: Add, edit or delete product categories.
     
     Order Management: Track and process customer orders efficiently.
 
