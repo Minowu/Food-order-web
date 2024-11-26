@@ -4,6 +4,7 @@ Food Order Web is an intuitive web application that allows users to browse, sele
 
 Key Features
   For Users:
+    
     Browse Products: Explore a diverse menu with detailed images and pricing.
     
     Add to Cart: Select your favorite dishes and add them to your personal cart.
@@ -13,6 +14,7 @@ Key Features
     Payment: Enjoy fast and hassle-free checkout options.
 
   For Admins:
+  
     Manage Products: Add, edit, or delete products.
     
     Manage Categories: Organize and optimize product categories.
@@ -21,10 +23,7 @@ Key Features
 
 ![image](https://github.com/user-attachments/assets/6c7d92fe-1233-4f26-8266-1254c51df0e2)
 
+
+
 -Order page
 ![image](https://github.com/user-attachments/assets/61b623a0-d653-48e8-b188-0748e1ca1079)
-
--Pay
-![image](https://github.com/user-attachments/assets/b266f59f-c1cc-4b35-8569-932fe1858f2d)
-![image](https://github.com/user-attachments/assets/d57182ec-101d-4550-a7a0-1878248af570)
-
