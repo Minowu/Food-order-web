@@ -21,9 +21,6 @@ Key Features
     
     Order Management: Track and process customer orders efficiently.
 
-![image](https://github.com/user-attachments/assets/6c7d92fe-1233-4f26-8266-1254c51df0e2)
+            ![image](https://github.com/user-attachments/assets/6c7d92fe-1233-4f26-8266-1254c51df0e2)
 
 
-
--Order page
-![image](https://github.com/user-attachments/assets/61b623a0-d653-48e8-b188-0748e1ca1079)
